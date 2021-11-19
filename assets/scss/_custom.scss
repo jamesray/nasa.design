@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+// using tailwind theme variables inside scss with the theme() function
+// https://tailwindcss.com/docs/using-with-preprocessors#variables
+// https://tailwindcss.com/docs/functions-and-directives#theme
+html,
+body {
+  font-family: 'Didact Gothic';
+}
+
+.font-primary {
+  font-family: 'Didact Gothic';
+}
+
+.font-secondary {
+  font-family: 'Poiret One';
+}
