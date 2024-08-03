@@ -1,14 +1,14 @@
 install:				## Installs dependencies
-	npm install
+	pnpm install
 
 clean:					## Cleans dependencies and dist folder
 	rm -rf ./node_modules ./dist
 
 dev start:			## Starts up dev server
-	npm run dev
+	pnpm run dev
 
 build:					## Builds site to dist folder
-	npm run build
+	pnpm run build
 
 help:						## Lists all known make commands
 	@echo ====================================================================
